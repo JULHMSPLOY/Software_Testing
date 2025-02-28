@@ -27,3 +27,7 @@ class CaesarCipherTest(unittest.TestCase):
         self.assertEqual(encrypted)
 
     def test_caesar_cipher_case5(self):
+        s = "a-b-CdEf!"
+        k = 4
+        encrypted = caesarCipher(s, k)
+        self.assertEqual(encrypted)
