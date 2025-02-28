@@ -24,3 +24,4 @@ class AlternatingCharactersTest(unittest.TestCase):
         self.assertEqual(alternatingCharacters("BBBBBBBBB"), 8)
 
     def test_alternating_characters_case8(self):
+        self.assertEqual(alternatingCharacters("ABABABABABABABABABAB"), 0)
