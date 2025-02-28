@@ -54,6 +54,7 @@ class AlternatingCharactersTest(unittest.TestCase):
         self.assertEqual(alternatingCharacters("ABBAAB"), 2)
 
     def test_alternating_characters_case18(self):
+        self.assertEqual(alternatingCharacters("ABABAAA"), 2)
 
 if __name__ == '__main__':
     unittest.main()
