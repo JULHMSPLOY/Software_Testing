@@ -3,3 +3,4 @@ def caesarCipher(s, k):
     encrypted_text = []
 
     for char in s:
+        if 'a' <= char <= 'z':
