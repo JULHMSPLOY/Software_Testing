@@ -6,3 +6,4 @@ class FunnyStringTest(unittest.TestCase):
         self.assertEqual(funnyString("acxz"), "Funny")
 
     def test_funny_string_case_2(self):
+        self.assertEqual(funnyString("bcxz"), "Not Funny")
