@@ -72,6 +72,7 @@ class FunnyStringTest(unittest.TestCase):
         self.assertEqual(funnyString("ab" * 50), "Not Funny")
     
     def test_funny_string_case_24(self):
+        self.assertEqual(funnyString("a" * 10000), "Funny")
 
     if __name__ == '__main__':
         unittest.main()
