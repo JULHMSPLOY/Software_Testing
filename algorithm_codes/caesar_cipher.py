@@ -9,3 +9,5 @@ def caesarCipher(s, k):
             new_char = chr(((ord(char) - ord('A') + k) % 26) + ord('A'))
         else:
             new_char = char
+
+        encrypted_text.append(new_char)
