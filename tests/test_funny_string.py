@@ -57,6 +57,7 @@ class FunnyStringTest(unittest.TestCase):
         self.assertEqual(funnyString("abc#cba"), "Not Funny")
 
     def test_funny_string_case_19(self):
+        self.assertEqual(funnyString("a1b2b1a"), "Funny")
 
     if __name__ == '__main__':
         unittest.main()
