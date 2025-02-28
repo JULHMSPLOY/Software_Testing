@@ -5,3 +5,4 @@ def caesarCipher(s, k):
     for char in s:
         if 'a' <= char <= 'z':
             new_char = chr(((ord(char) - ord('a') + k) % 26) + ord('a'))
+        elif 'A' <= char <= 'z':
