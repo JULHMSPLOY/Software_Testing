@@ -1,2 +1,4 @@
 from algorithm_codes.alternating_characters import alternatingCharacters
 import unittest
+
+class AlternatingCharactersTest(unittest.TestCase):
