@@ -4,8 +4,8 @@ import unittest
 class AlternatingCharactersTest(unittest.TestCase):
     def test_alternating_characters_case1(self):
         s = "AAAA"
-        k = alternatingCharacters(s)
-        self.assertEqual(k, 3)
+        encrypted = alternatingCharacters(s)
+        self.assertEqual(encrypted)
 
     def test_alternating_characters_case2(self):
         self.assertEqual(alternatingCharacters("BBBBB"), 4)
