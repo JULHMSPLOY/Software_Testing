@@ -6,3 +6,4 @@ class CaesarCipherTest(unittest.TestCase):
         self.assertEqual(caesarCipher("middle-Outz", 2), "okffng-Qwvb")
     
     def test_caesar_cipher_case2(self):
+        self.assertEqual(caesarCipher("abc-XYZ", 3), "def-ABC")
