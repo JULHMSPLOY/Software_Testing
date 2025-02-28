@@ -61,3 +61,6 @@ class CaesarCipherTest(unittest.TestCase):
         k = 5
         encrypted = caesarCipher(s, k)
         self.assertEqual(encrypted)
+
+if __name__ == '__main__':
+    unittest.main()
