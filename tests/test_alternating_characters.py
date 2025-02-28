@@ -63,6 +63,7 @@ class AlternatingCharactersTest(unittest.TestCase):
         self.assertEqual(alternatingCharacters("ABABABBABABA"), 2)
 
     def test_alternating_characters_case21(self):
+        self.assertEqual(alternatingCharacters("B" * 50000 + "A" + "B" * 49999), 99998)
 
 if __name__ == '__main__':
     unittest.main()
