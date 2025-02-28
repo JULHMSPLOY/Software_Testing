@@ -18,7 +18,9 @@ class AlternatingCharactersTest(unittest.TestCase):
         self.assertEqual(encrypted)
     
     def test_alternating_characters_case4(self):
-        self.assertEqual(alternatingCharacters("BABABA"), 0)
+        s = "BABABA"
+        encrypted = alternatingCharacters(s)
+        self.assertEqual(encrypted)
 
     def test_alternating_characters_case5(self):
         self.assertEqual(alternatingCharacters("AAABBB"), 4)
