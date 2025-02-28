@@ -11,3 +11,5 @@ def caesarCipher(s, k):
             new_char = char
 
         encrypted_text.append(new_char)
+
+    return ''.join(encrypted_text)
