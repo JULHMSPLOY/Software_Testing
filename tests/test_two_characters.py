@@ -26,3 +26,5 @@ class AlternateTest(unittest.TestCase):
         s = "xyxyxyxy"
         result = alternate(s)
         self.assertEqual(result)
+
+    def test_two_characters_case6(self):
