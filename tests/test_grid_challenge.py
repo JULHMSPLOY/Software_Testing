@@ -41,3 +41,5 @@ class GridChallengeTest(unittest.TestCase):
         grid = ['ba', 'dc', 'fe']
         result = gridChallenge(grid)
         self.assertEqual(result)
+
+    def test_grid_challenge_case9(self):
