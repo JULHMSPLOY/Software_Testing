@@ -5,4 +5,6 @@ class GridChallengeTest(unittest.TestCase):
     def test_grid_challenge_case1(self):
         grid = ['ebacd', 'fghij', 'olmkn', 'trpqs', 'xywuv']
         result = gridChallenge(grid)
-        self.assertEqual(result, "YES")
+        self.assertEqual(result)
+
+    def test_grid_challenge_case1(self):
