@@ -51,3 +51,6 @@ class AlternateTest(unittest.TestCase):
         s = "xxyyzz"
         result = alternate(s)
         self.assertEqual(result)
+
+if __name__ == '__main__':
+    unittest.main()
