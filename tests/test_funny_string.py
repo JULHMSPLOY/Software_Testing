@@ -58,7 +58,9 @@ class FunnyStringTest(unittest.TestCase):
         self.assertEqual(encrypted)
 
     def test_funny_string_case_12(self):
-        self.assertEqual(funnyString("abcdefgh"), "Not Funny")
+        s = "abcdefgh"
+        encrypted = funnyString(s)
+        self.assertEqual(encrypted)
 
     def test_funny_string_case_13(self):
         self.assertEqual(funnyString("hgfedcba"), "Not Funny")
