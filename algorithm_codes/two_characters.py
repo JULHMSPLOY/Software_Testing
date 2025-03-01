@@ -1,0 +1,1 @@
+def alternate(s):
