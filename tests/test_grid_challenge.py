@@ -126,3 +126,6 @@ class GridChallengeTest(unittest.TestCase):
         grid = ['pqrst', 'uvwxyz', 'ijklmn', 'abcdef']
         result = gridChallenge(grid)
         self.assertEqual(result)
+
+if __name__ == '__main__':
+    unittest.main()
