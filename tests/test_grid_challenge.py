@@ -100,6 +100,7 @@ class GridChallengeTest(unittest.TestCase):
 
     def test_grid_challenge_case17(self):
         grid = ['abc', 'cba', 'bac']
+        expected_output = "NO"
         result = gridChallenge(grid)
         self.assertEqual(result, expected_output)
 
@@ -282,6 +283,8 @@ class GridChallengeTest(unittest.TestCase):
         expected_output = "NO"
         result = gridChallenge(grid)
         self.assertEqual(result, expected_output)
+    
+    def test_grid_challenge_case48(self):
 
 if __name__ == '__main__':
     unittest.main()
