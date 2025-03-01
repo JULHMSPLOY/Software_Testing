@@ -9,4 +9,4 @@ def alternate(s):
             filtered_string = [c for in s if c == char1 or c == char2]
 
             if all(filtered_string[k] != filtered_string[k + 1] for k in range(len(filtered_string) - 1)):
-                
+                max_length = max(max_length, len(filtered_string))
