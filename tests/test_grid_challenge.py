@@ -271,5 +271,7 @@ class GridChallengeTest(unittest.TestCase):
         result = gridChallenge(grid)
         self.assertEqual(result, expected_output)
 
+    def test_grid_challenge_case46(self):
+
 if __name__ == '__main__':
     unittest.main()
