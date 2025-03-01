@@ -163,6 +163,9 @@ class GridChallengeTest(unittest.TestCase):
         self.assertEqual(result)
 
     def test_grid_challenge_case33(self):
+        grid = [''.join(sorted(chr(97 + (i + j) % 26) for i in range(100))) for j in range(100)]
+        result = gridChallenge(grid)
+        self.assertEqual(result)
 
 if __name__ == '__main__':
     unittest.main()
