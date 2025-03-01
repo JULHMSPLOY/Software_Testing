@@ -53,3 +53,6 @@ class GridChallengeTest(unittest.TestCase):
         self.assertEqual(result)
 
     def test_grid_challenge_case11(self):
+        grid = ['abc', 'cde', 'efg']
+        result = gridChallenge(grid)
+        self.assertEqual(result)
