@@ -10,3 +10,5 @@ def alternate(s):
 
             if all(filtered_string[k] != filtered_string[k + 1] for k in range(len(filtered_string) - 1)):
                 max_length = max(max_length, len(filtered_string))
+
+    return max_length
