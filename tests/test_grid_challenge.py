@@ -143,7 +143,7 @@ class GridChallengeTest(unittest.TestCase):
         self.assertEqual(result)
 
     def test_grid_challenge_case29(self):
-        grid = ['abcd', 'bcde', 'cdef', 'defg']
+        grid = [''.join(chr(97 + (i + j) % 26) for i in range(100)) for j in range(100)]
         result = gridChallenge(grid)
         self.assertEqual(result)
 
@@ -158,6 +158,9 @@ class GridChallengeTest(unittest.TestCase):
         self.assertEqual(result)
 
     def test_grid_challenge_case32(self):
+        grid = ['a' * 99 + 'z'] + ['b' * 100] + ['c' * 100]
+        result = gridChallenge(grid)
+        self.assertEqual(result)
 
 if __name__ == '__main__':
     unittest.main()
