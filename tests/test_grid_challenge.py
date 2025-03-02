@@ -171,6 +171,10 @@ class GridChallengeTest(unittest.TestCase):
         self.assertEqual(result, expected_output)
 
     def test_grid_challenge_case29(self):
+        grid = ['abcdefghijklmnopqrstuvwxyz'] * 1000  # 1000 แถว
+        expected_output = "YES"
+        result = gridChallenge(grid)
+        self.assertEqual(result, expected_output)
 
 if __name__ == '__main__':
     unittest.main()
